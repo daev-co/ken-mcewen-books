@@ -1,0 +1,17 @@
+section#coming-soon {
+margin: 0 auto;
+width: 80%;
+text-align: center;
+}
+
+section#coming-soon h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+section#coming-soon h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+section#coming-soon {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+section#coming-soon h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+section#coming-soon h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }

@@ -1,23 +1,38 @@
-section#coming-soon {
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+#coming-soon {
     margin: 0 auto;
     width: 80%;
     text-align: center;
-    color: white;
 }
 
-section#coming-soon h1 {
+#page-title, 
+#coming-soon h1 {
     font-family: 'EB Garamond', serif;
     font-weight: 400;
+    font-size: 4rem;
+    margin: 0.5rem 0 0 1rem;
+}
+
+#coming-soon h1 {
     font-size: 40px;
 }
 
-section#coming-soon h2 {
+#coming-soon h2 {
     font-family: 'EB Garamond', serif;
     font-weight: 100;
     font-style: italic;
 }
 
-#background-video {
+/* #background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -27,4 +42,4 @@ section#coming-soon h2 {
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+  } */

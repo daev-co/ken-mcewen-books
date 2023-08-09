@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
 <head>
     <meta charset="UTF-8">
@@ -9,21 +9,156 @@
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bulma-tweaks.css">
+    <link rel="stylesheet" href="css/bulma-overrides.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="js/functions.js"></script>
     <title>Ken McEwen Books</title>
 </head>
 
 <body>
-    <section id="header">
-        <div id="page-title">Ken McEwen</div>
-    </section>
     <!-- <video id="background-video" autoplay loop muted poster="assets/background/background-still.jpg">
         <source src="assets/background/background.mp4" type="video/mp4">
     </video> -->
-    <section id="coming-soon">
-        <h2>Coming soon...</h2>
-        <p>This is the development branch. This shall only be seen by Ken and Dave.</p>
+    <section id="header">
+        <div id="page-title">Ken McEwen</div>
     </section>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#top">
+                Books
+            </a>
+            <a class="navbar-item" href="#bio">
+                Bio
+            </a>
+            <a class="navbar-item" href="#news">
+                News
+            </a>
+            <!-- <a class="navbar-item" href="/">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a> -->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Testimonials
+                        </a>
+                        <a class="navbar-item">
+                            Calendar / Events
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Signup for Newsletter</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BOOKS -->
+
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">Books could be displayed here</span>
+        </div>
+    </div>
+
+    <!-- BIO -->
+
+    <div id="bio" style="padding-bottom: 20vh;">
+        <h2>Bio</h2>
+        <p>This section could actually just hold the full bio, since it's all text and wouldn't need a
+            background, perse.</p>
+        <p>This is a divider between sections. This section is necessary to hide the seam between the two
+            images used in the background.</p>
+    </div>
+
+
+
+
+    <!-- NEWS -->
+
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border">News</span>
+        </div>
+    </div>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-primary">
+                        <p class="title">Vertical...</p>
+                        <p class="subtitle">Top tile</p>
+                    </article>
+                    <article class="tile is-child notification is-warning">
+                        <p class="title">...tiles</p>
+                        <p class="subtitle">Bottom tile</p>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-info">
+                        <p class="title">Middle tile</p>
+                        <p class="subtitle">With an image</p>
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/640x480.png">
+                        </figure>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                        <!-- Content -->
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="tile is-parent">
+            <article class="tile is-child notification is-success">
+                <div class="content">
+                    <p class="title">Tall tile</p>
+                    <p class="subtitle">With even more content</p>
+                    <div class="content">
+                        <!-- Content -->
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+$purple: hsl(271, 88%, 45%);
+
+$primary: $purple;
+
+// Import only what you need from Bulma
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/utilities/_all.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/base/_all.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/elements/button.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/elements/container.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/elements/title.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/form/_all.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/components/navbar.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/layout/hero.sass";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/sass/layout/section.sass";

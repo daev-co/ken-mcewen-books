@@ -1,0 +1,18 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+nav {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4rem;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.navbar .navbar-menu,
+.navbar .navbar-burger {
+    flex-grow: initial;
+    flex-shrink: initial;
+}
